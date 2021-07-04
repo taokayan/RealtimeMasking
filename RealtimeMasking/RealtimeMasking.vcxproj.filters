@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UIFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="EasyGDI+Bitmap">
+      <UniqueIdentifier>{966bbcde-b745-4921-a817-7fcd0e9e433f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealtimeMaskingKernel">
+      <UniqueIdentifier>{a8a16305-9483-4827-9ef7-5f71e7fa316f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OfflineSound">
+      <UniqueIdentifier>{1362265d-0e5d-4191-8380-29d071209de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wave Writer">
+      <UniqueIdentifier>{d30eff7a-1c3c-44bc-81ac-4a8f54b67af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="temp">
+      <UniqueIdentifier>{e549b61e-684d-4101-9917-82e8bc79a5fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlDlg.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDialog.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDialog.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimeMasking.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimeMaskingDlg.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UIFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBitmap.cpp">
+      <Filter>EasyGDI+Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadOptimization.cpp">
+      <Filter>RealtimeMaskingKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimeMaskingKernel.cpp">
+      <Filter>RealtimeMaskingKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveCollector.cpp">
+      <Filter>OfflineSound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundWriter.cpp">
+      <Filter>Wave Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoundCollectorLib\SoundCollector.cpp">
+      <Filter>temp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlDlg.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDialog.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDialog.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimeMasking.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimeMaskingDlg.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UIFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBitmap.h">
+      <Filter>EasyGDI+Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT.h">
+      <Filter>RealtimeMaskingKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadOptimization.h">
+      <Filter>RealtimeMaskingKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimeMaskingKernel.h">
+      <Filter>RealtimeMaskingKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveCollector.h">
+      <Filter>OfflineSound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundWriter.h">
+      <Filter>Wave Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundCollectorLib\MutexUtil.h">
+      <Filter>temp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundCollectorLib\SoundCollector.h">
+      <Filter>temp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoundCollectorLib\SoundCollectorEventInterface.h">
+      <Filter>temp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RealtimeMasking.ico">
+      <Filter>ResourceFiles</Filter>
+    </None>
+    <None Include="res\RealtimeMasking.rc2">
+      <Filter>ResourceFiles</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealtimeMasking.rc">
+      <Filter>ResourceFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
